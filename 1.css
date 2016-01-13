@@ -1,0 +1,249 @@
+<style type="text/css">
+
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#maincontainer{
+width: 1500px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#topsection{
+background: #EAEAEA;
+height: 90px; /*Height of top section*/
+}
+
+#topsection h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper{
+float: left;
+width: 100%;
+}
+
+
+
+
+
+#footer{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer a{
+color: #FFFF80;
+}
+
+.innertube{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+body{
+margin:0;
+padding:0;
+line-height: 1.5em;
+}
+
+b{font-size: 110%;}
+em{color: red;}
+
+#maincontainer1{
+width: 1500px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+}
+
+#topsection1{
+background: #EAEAEA;
+height: 90px; /*Height of top section*/
+}
+
+#topsection1 h1{
+margin: 0;
+padding-top: 15px;
+}
+
+#contentwrapper1{
+float: left;
+width: 100%;
+}
+
+#contentcolumn1{
+margin: 0 250px 0 250px; /*Margins for content column. Should be "0 RightColumnWidth 0 LeftColumnWidth*/
+}
+
+#leftcolumn1{
+float: left;
+width: 250px; /*Width of left column in pixel*/
+margin-left: 0px; /*Set margin to that of -(MainContainerWidth)*/
+background: #C8FC98;
+height:1000px;
+}
+
+#rightcolumn1{
+float: left;
+width: 250px; /*Width of right column*/
+margin-left: 1225 px; /*Set left margin to -(RightColumnWidth)*/
+margin-top: -1100 px;
+background: #FDE95E;
+height:1000px;
+}
+
+#footer1{
+clear: left;
+width: 100%;
+background: black;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+#footer1 a{
+color: #FFFF80;
+}
+
+.innertube1{
+margin: 10px; /*Margins for inner DIV inside each column (to provide padding)*/
+margin-top: 0;
+}
+</style>
+
+#dock-container {
+     font: Helvetica, Arial, sans-serif; 
+     font-size: 12px;
+}
+#dock-container li {
+     float: left;
+     list-style-type: none;
+     text-align: center;
+}
+#dock-container a {
+     color: #ccc;
+     text-decoration: none;
+}
+#dock-container img {
+     border: 0;
+     width: 75px;
+}
+#dock-container p {
+     background: #000; 
+     border-radius: 8px; 
+     -moz-border-radius: 8px; 
+     margin: 0;
+     position: relative;
+     padding: 2px 4px;
+     z-index: 100;
+}
+#dock-container div {
+     background: #000;
+     width: 10px;
+     height: 10px;
+     margin: 0 auto;
+     position: relative;
+     bottom: 20px;
+     -moz-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -webkit-transform: rotate(45deg); 
+}
+
+#dock-container img, #dock-container p {
+     -moz-transition: all .4s ease-in-out; 
+     -o-transition: all .4s ease-in-out; 
+     -webkit-transition: all .4s ease-in-out;
+}
+#dock-container p, #dock-container div {
+     -moz-transition: opacity .1s ease-in-out; 
+     -o-transition: opacity .1s ease-in-out; 
+     -webkit-transition: opacity .1s ease-in-out;
+}
+#dock-container a:hover > img {
+     -moz-transform: scale(1.4); 
+     -o-transform: scale(1.4);
+     -webkit-transform: scale(1.4);
+}
+
+#dock-container p, #dock-container div {
+     opacity: 0;
+}
+#dock-container a:hover > div, #dock-container a:hover > p {
+     opacity: 1;
+}
+
+
+**********
+
+#dock-container1 {
+     font: Helvetica, Arial, sans-serif; 
+     font-size: 12px;
+}
+#dock-container1 li {
+     float: right;
+     list-style-type: none;
+     text-align: center;
+}
+#dock-container1 a {
+     color: #ccc;
+     text-decoration: none;
+}
+#dock-container1 img {
+     border: 0;
+     width: 75px;
+}
+#dock-container1 p {
+     background: #000; 
+     border-radius: 8px; 
+     -moz-border-radius: 8px; 
+     margin: 0;
+     position: relative;
+     padding: 2px 4px;
+     z-index: 100;
+}
+#dock-container1 div {
+     background: #000;
+     width: 10px;
+     height: 10px;
+     margin: 0 auto;
+     position: relative;
+     bottom: 20px;
+     -moz-transform: rotate(45deg);
+     -o-transform: rotate(45deg);
+     -webkit-transform: rotate(45deg); 
+}
+
+#dock-container1 img, #dock-container1 p {
+     -moz-transition: all .4s ease-in-out; 
+     -o-transition: all .4s ease-in-out; 
+     -webkit-transition: all .4s ease-in-out;
+}
+#dock-container1 p, #dock-container1 div {
+     -moz-transition: opacity .1s ease-in-out; 
+     -o-transition: opacity .1s ease-in-out; 
+     -webkit-transition: opacity .1s ease-in-out;
+}
+#dock-container1 a:hover > img {
+     -moz-transform: scale(1.4); 
+     -o-transform: scale(1.4);
+     -webkit-transform: scale(1.4);
+}
+
+#dock-container1 p, #dock-container1 div {
+     opacity: 0;
+}
+#dock-container1 a:hover > div, #dock-container1 a:hover > p {
+     opacity: 1;
+}
+
+
+
+
